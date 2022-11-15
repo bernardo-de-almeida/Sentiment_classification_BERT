@@ -26,7 +26,7 @@ pip install transformers
 ## Code
 Jupyter notebook with the different steps: BERT_sent_classification.ipynb  
 Python script to run model from terminal: BERT_sent_classification.py  
-<img src="Model_BERT_final_class_performance.pdf" width="700"/>
+<img src="Model_BERT_final_class_performance.png" width="700"/>
 
 ## Predict the sentiment of a sentence using final model
 
