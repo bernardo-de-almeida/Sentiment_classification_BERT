@@ -1,6 +1,5 @@
 
 ## run as: 
-# cd /groups/stark/almeida/DeepLearning_practice/Sentiment_classification_BERT/
 # my_bsub_gridengine -P g -G "gpu:1" -m 10 -T '07:00:00' -o log_training -n Training "python ./BERT_sent_classification.py"
 
 from transformers import AutoTokenizer

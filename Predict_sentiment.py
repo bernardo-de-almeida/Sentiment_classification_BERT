@@ -12,7 +12,7 @@ import sys
 sentences = sys.argv[1:]
 
 # Load model
-model_path = '/groups/stark/almeida/DeepLearning_practice/Sentiment_classification_BERT/Model_BERT_final_class.h5'
+model_path = 'Model_BERT_final_class.h5'
 model = tf.keras.models.load_model(model_path, custom_objects={"TFBertModel": bert})
 
 # Tokenize input
